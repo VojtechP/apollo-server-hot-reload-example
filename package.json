@@ -1,7 +1,7 @@
 {
   "name": "apollo-server-hot-reload-example",
   "version": "1.0.0",
-  "description": "",
+  "description": "Example hot reload implementation of apollo server in docker container",
   "scripts": {
     "build": "webpack --config webpack.production.js",
     "build:dev": "webpack --config webpack.development.js",
