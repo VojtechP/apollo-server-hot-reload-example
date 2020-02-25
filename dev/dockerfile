@@ -1,0 +1,6 @@
+FROM apollo-server-hot-reload-example
+
+# dev volume
+VOLUME /app
+
+CMD [ "npm", "run", "build:dev" ]
